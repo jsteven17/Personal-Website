@@ -4,9 +4,9 @@
 // Write your JavaScript code.
 
 $(document).ready(function () {
-    $("p").hover(function () {
-        $(this).css("background-color", "yellow");
+    $("a").hover(function () {
+        $(this).css("text-decoration", "underline");
     }, function () {
-        $(this).css("background-color", "pink");
+        $(this).css("text-decoration", "none");
     });
 });
