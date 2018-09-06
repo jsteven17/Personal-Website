@@ -19,6 +19,10 @@ li.main {
     font-size: 3em;
 }
 
+img.mainPic {
+    max-height: 1000px
+}
+
 /* Carousel */
 .carousel-caption p {
     font-size: 20px;
