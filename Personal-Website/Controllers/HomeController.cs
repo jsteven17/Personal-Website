@@ -22,9 +22,9 @@ namespace Personal_Website.Controllers
             return View();
         }
 
-        public IActionResult Contact()
+        public IActionResult Projects()
         {
-            ViewData["Message"] = "Your contact page.";
+            ViewData["Message"] = "Your projects page.";
 
             return View();
         }
