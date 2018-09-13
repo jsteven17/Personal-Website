@@ -15,6 +15,10 @@ body {
     padding-right: 15px;
 }
 
+.navbar-collapse.collapse.in {
+    display: block !important;
+}
+
 li.main {
     font-size: 3em;
 }
